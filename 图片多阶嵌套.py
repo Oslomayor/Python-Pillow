@@ -2,6 +2,7 @@
 from PIL import Image
 #图片路径
 content = 'D:\Python\Python36\pictures'
+#同一张jpg图片，命名为girl时能打开，命名为boy却打不开
 img = Image.open(content+'\boy.jpg')
 img.show()
 imgg = img
