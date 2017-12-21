@@ -7,4 +7,5 @@ while(1):    # get a frame and show
     cv2.imshow('Capture', frame)        
     if cv2.waitKey(1) & 0xFF == ord('q'):      
         breakcap.release()
+# 置顶窗口
 cv2.destroyAllWindows()
