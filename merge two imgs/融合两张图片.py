@@ -1,4 +1,6 @@
 # 融合两张图片
+# 注意两张图片的尺寸要相同
+# 可配合 Foto-Mosaik-Edda 软件使用
 # RGBA模式下，一张图片映射一个列表，列表的元素是四元组(R,G,B,A)
 # R = Red, G = Green, B = Blue, A = Alpha(anti-transparence)
 from PIL import Image
