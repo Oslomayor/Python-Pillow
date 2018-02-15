@@ -1,4 +1,4 @@
-#图片多阶嵌套
+#图片旋转嵌套
 from PIL import Image
 #图片路径
 content = 'D:\Python\Python36\pictures'
